@@ -1,0 +1,32 @@
+---
+abstract: 'A multi-purpose personal logging software'
+author:
+  - 'Kang-min Liu <gugod@gugod.org>'
+build_requires:
+  Test::More: 0
+distribution_type: module
+generated_by: 'Module::Install version 0.77'
+license: mit
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: App-Logbook
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  App::CLI: 0
+  App::CLI::Command: 0
+  DateTime: 0
+  DateTime::Format::Natural: 0
+  File::Path: 0
+  Filter::Util::Call: 0
+  KiokuDB: 0
+  Moose: 0
+  Proc::InvokeEditor: 0
+  Text::Trim: 0
+  UNIVERSAL::require: 0
+  YAML::Any: 0
+  self: 0
+version: 0.00_1
